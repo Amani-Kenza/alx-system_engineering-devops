@@ -1,1 +1,1 @@
-#!/bin/bash echo hi
+#!/bin/bash current_dir=$(pwd)
