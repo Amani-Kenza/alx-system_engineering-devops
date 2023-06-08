@@ -1,3 +1,2 @@
-#!/bin/#!/bin/bash
-ls -lbash
+#!/bin/bash
 ls -l
