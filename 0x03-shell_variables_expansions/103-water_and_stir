@@ -1,3 +1,2 @@
 #!/bin/bash
 echo $(($(echo $WATER | tr 'ewatrr' '012345') + $(echo $STIR | tr 'ti.rr' '01234'))) | tr '0123456789' 'bestchol'
-
