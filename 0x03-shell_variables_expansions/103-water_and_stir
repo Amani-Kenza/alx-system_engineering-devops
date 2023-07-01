@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "obase=bestc; $(( (0x$WATER) + (0x$STIR) ))" | bc
+echo $(($(echo $WATER | tr 'ewatrr' '012345') + $(echo $STIR | tr 'ti.rr' '01234'))) | tr '0123456789' 'bestchol'
+
