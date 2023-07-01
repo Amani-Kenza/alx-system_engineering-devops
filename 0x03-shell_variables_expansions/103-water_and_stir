@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '%s\n' "${WATER//[^w]/+1}" "${STIR//[^t]/+1}" | bc | tr '0-9a-zA-Z' 'bestchol'
+printf '%s\n' "${WATER//[^w]/+1}" "${STIR//[^t]/+1}" | ( IFS=+ read -r nums; echo "$(($nums))" ) | tr '0-9a-zA-Z' 'bestchol'
